@@ -35,6 +35,7 @@ class Units(enum.Enum):
 
 
 class FoodDef(typ.NamedTuple):
+    id: int
     name: str
     sample_qty: float
     sample_units: Units
